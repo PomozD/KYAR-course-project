@@ -1,0 +1,255 @@
+li{
+  list-style-type: none;
+}
+#navbar ul{
+  display: none;
+  position: absolute;
+}
+#navbar li:hover ul {
+  display: block;
+}
+#navbar, #navbar ul{
+  margin-right: 70px;
+  padding: 0;
+  list-style-type: none;
+  z-index: 9999;
+}
+#navbar { 
+  padding-top: 10px;
+  padding-left: 45px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  display:flex;
+}
+#navbar li {
+  float: left;
+  position: relative;
+  height: 100%;
+}
+#navbar li a {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  width: 180px;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+}
+#navbar ul li {
+  margin-left: 25px;
+  margin-top: 5px;
+  float: none;
+}
+#divmenu {
+  border: 2px solid transparent;
+  border-radius: 80px;
+  background-color: #ffffff;
+  margin-left: 25px;
+  margin-top: 10px;
+  text-align: center;
+  transition: 0.15s ease-out;
+  box-shadow: 0 0 10px #666;
+  z-index: 2;
+}
+#divmenu:hover {
+    border-color: #5B14F2;
+    z-index: 2;
+}
+#Drop-downMenu {
+  
+  width: 200px;
+  border-radius: 80px;
+  background-color: #ffffff;
+  border: 2px solid transparent;
+  transition: 0.15s ease-out;
+  box-shadow: 0 0 10px #666;
+  z-index: 2;
+}
+#Drop-downMenu:hover {
+  border-color: #5B14F2;
+  z-index: 9999;
+}
+#container {
+  display:flex;
+  justify-content: flex-end;
+}
+#ChooseAPet {
+  width: 200px;
+  background-color: #5B14F2;
+  border-radius: 80px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  margin-left: 25px;
+  margin-top: 10px;
+  text-align: center;
+  transition: 0.15s ease-out;
+  box-shadow: 0 0 10px #666;
+  border: 3px solid transparent;
+  transition: 0.15s ease-out;
+  z-index: 2;
+}
+#ChooseAPet:hover {
+  border-color: #ffffff;
+  z-index: 2;
+}
+#galochka {
+  margin-top: 6px;
+}
+
+
+#iconmenu{
+  display:none;
+  margin-top:2%;
+}
+#logoAndIcon{
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+}
+#containerPhone{
+  background-color: #5B14F2;
+  width: 100%;
+  border-radius: 20px;
+  height: 370px;
+  display: none;
+}
+#logoAndCross{
+  padding-top: 2%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#logoPhone{
+  margin-left: 3%;
+}
+#CrossPhone{
+  margin-top: 1%;
+  margin-right: 3%;
+}
+
+#ChooseAPetPhone{
+  width: 40%;
+  height: 40px;
+  background-color: white;
+  border-radius: 80px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 3%;
+  margin-top: 30px;
+  text-align: center;
+  box-shadow: 0 0 10px #666;
+  border: 3px solid transparent;
+  transition: 0.15s ease-out;
+  line-height: 0;
+}
+#ChooseAPetPhone:hover{
+  background-color: rgb(180, 180, 180);
+}
+#divmenuPhone{
+  list-style-type: none;
+  width: 40%;
+  height: 40px;
+  background-color: white;
+  border-radius: 80px;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  margin-left: 3%;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px #666;
+  border: 3px solid transparent;
+  transition: 0.15s ease-out;
+  line-height: 0;
+}
+#divmenuPhone:hover{
+  background-color: rgb(180, 180, 180);
+}
+
+@media (max-width:768px) {
+  #container {
+    display:none;
+  }
+  #iconmenu{
+    display:block;
+    margin-top: 5%;
+  }
+  header{
+    width: 100%;
+  }
+  nav{
+    width: 100%;
+  }
+
+}
+@media (max-width:376px) {
+  #containerPhone{
+    height: 212px;
+    z-index: 3;
+  }
+  #navbar, #navbar ul{
+    margin-right: 30px;
+    padding: 0;
+    list-style-type: none;
+    z-index: 9999;
+  }
+  #navbar li a {
+    padding: 10px;
+    width: 120px;
+  }
+  #logoImg{
+    width:76px;
+    height: 47px;
+  }
+  #container {
+    display:none;
+  }
+  #iconmenu{
+    display:block;
+    margin-top: 5%;
+  }
+  header{
+    width: 100%;
+  }
+  nav{
+    width: 100%;
+  }
+  #navbar{
+    padding-left: 0;
+  }
+  #logoPhone{
+    margin-right: 45%;
+  }
+  #imgLogoPhone{
+    width: 130px;
+    height: 29px;
+  }
+  #logoAndCross{
+    padding-top: 5%;
+    justify-content:space-around;
+  }
+  #imgCrossMenu{
+    width: 19px;
+    height: 19px;
+  }
+  #ChooseAPetPhone{
+    width: 50%;
+    height: 23px;
+    font-size: 12px;
+    margin-left: 3%;
+    margin-top: 20px;
+    line-height: 0;
+    text-align:start;
+    padding-left: 5%;
+  }
+  #divmenuPhone{
+    width: 50%;
+    height: 23px;
+    font-size: 11px;
+    margin-left: 3%;
+    margin-top: 15px;
+    line-height: 0;
+    text-align:start;
+    padding-left: 5%;
+  }
+}

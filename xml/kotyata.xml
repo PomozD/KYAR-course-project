@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<cats xmlns:xlink="http://www.w3.org/1999/xlink">
+    <cat>
+        <itemId>cat</itemId>
+        <image>/kotyata/dusheska.jpeg</image>
+        <name>Дюшеска</name>
+        <history>История: отказались хозяева… </history>
+        <link>dusheska</link>
+    </cat>
+
+    <cat>
+        <itemId>cat</itemId>
+        <image>/kotyata/jakonew.jpeg</image>
+        <name>Жако</name>
+        <history>История: отказались хозяева… </history>
+        <link>jako</link>
+    </cat>
+
+    <cat>
+        <itemId>cat</itemId>
+        <image>/kotyata/limonnew.jpeg</image>
+        <name>Лаймон</name>
+        <history>История: найден прохожими на свалке… </history>
+        <link>limon</link>
+    </cat>
+
+    <cat>
+        <itemId>cat</itemId>
+        <image>/kotyata/marek.jpeg</image>
+        <name>Марек</name>
+        <history>История: найден прохожими на улице… </history>
+        <link>marek</link>
+    </cat>
+
+</cats>

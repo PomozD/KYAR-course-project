@@ -1,0 +1,333 @@
+html, body {padding:0; margin:0;}
+a{
+  text-decoration: none;
+}
+#navigation { 
+    display: flex;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+  .pmain,.pcontacts{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .pmain:hover{
+    font-size: 18px;
+    transition: 0.15s ease-out;
+    display: inline-block;
+  }
+  .pcontacts:hover{
+    font-size: 18px;
+    transition: 0.15s ease-out;
+    display: inline-block;
+  }
+
+  #divForContactsHeadPhoto{
+    width:100%;
+    height: 100%;
+  }
+  #contactsHeadPhoto{
+    width:100%;
+    height:245px;
+    z-index: 1;
+    position: relative;
+  }
+  #divForHeadtext1{
+    z-index: 2;
+    border-radius: 80px;
+    background-color: #ffffff;
+    height: 55px;
+    width: 740px;
+    box-shadow: 0 0 15px #666;
+    position: absolute;
+    top:29%;
+    margin-left:390px;
+    text-align: center;
+  }
+  #headText1{
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+  }
+  #form {
+    border-radius: 20px;
+    background-color: #ffffff;
+    height: 423px;
+    width: 700px;
+    margin-left: 420px;
+    margin-top: 0px;
+    margin-bottom: 70px;
+    box-shadow: 0 0 15px #666;
+    text-align: center;
+  }
+  #textForForm{
+    padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+  }
+  .form-container {
+    margin-left: 20px;
+    max-width: 630px;
+    padding-top: 10px;
+    padding-left: 16px;
+    background-color: white;
+    }
+    
+    .form-container input[type=text] {
+    width: 70%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border-radius: 20px;
+    border-color: #6527F2;
+    background: white;
+    }
+    
+    .form-container input[type=text]:focus {
+    outline: none;
+    }
+    
+    .btn {
+        width: 232px;
+        height: 50px;
+        background-color: #5B14F2;
+        border-radius: 80px;
+        font-family: 'Open Sans';
+        font-weight: bold;
+        font-size:20px;
+        border: 3px solid;
+        margin-top: 10px;
+        text-align: center;
+        color:#ffffff;
+        text-decoration: none;
+        padding: 5px;
+        background-image: linear-gradient(to left,transparent,transparent 50%,white 50%,white);
+        background-position: 100% 0;
+        background-size: 210%;
+        transition: all .25s ease-in;
+    }
+    .btn:hover{
+        background-color: white;
+        color: black;
+        border-color: #5B14F2;
+        background-position: 0 0;
+        box-shadow: 0 0 10px #666;
+    }
+    
+    .form-container .btn:hover,
+    .open-button:hover {
+    opacity: 1;
+    }
+
+    @media (max-width:768px) {
+      #contactsHeadPhoto{
+        width:100%;
+        height:159px;
+        position: relative;
+      }
+      #divForHeadtext1{
+        z-index: 2;
+        border-radius: 80px;
+        background-color: #ffffff;
+        height: 39px;
+        width: 465px;
+        box-shadow: 0 0 15px #666;
+        position: absolute;
+        top:19%;
+        left:0%;
+        text-align: center;
+        margin-left: 150px;
+      }
+      #headText1{
+        margin-top: 10px;
+        font-size: 16px;
+      }
+      #navigation {
+        font-size: 13px;
+        margin-top: 23px;
+        margin-left: 32px;
+      }
+      .pmain,.pcontacts{
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+      .pmain:hover{
+        font-size: 15px;
+      }
+      .pcontacts:hover{
+        font-size: 15px;
+      }
+      #form {
+        border-radius: 20px;
+        background-color: #ffffff;
+        height: 423px;
+        width: 498px;
+        margin-left: 137px;
+        margin-top: 36px;
+        margin-bottom: 112px;
+        box-shadow: 0 0 15px #666;
+        text-align: center;
+      }
+      #textForForm{
+        padding-top: 10px;
+        font-family: 'Roboto', sans-serif;
+        font-weight:bold;
+      }
+      .form-container {
+        margin-left: 10px;
+        max-width: 630px;
+        padding-top: 10px;
+        padding-left: 0px;
+        background-color: white;
+        }
+        
+        .form-container input[type=text] {
+        width: 70%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        border-radius: 20px;
+        border-color: #6527F2;
+        background: white;
+        }
+        
+        .form-container input[type=text]:focus {
+        outline: none;
+        }
+        
+        .btn {
+            width: 232px;
+            height: 50px;
+            background-color: #5B14F2;
+            border-radius: 80px;
+            font-family: 'Open Sans';
+            font-weight: bold;
+            font-size:20px;
+            border: 3px solid;
+            margin-top: 10px;
+            text-align: center;
+            color:#ffffff;
+            text-decoration: none;
+            padding: 5px;
+            background-image: linear-gradient(to left,transparent,transparent 50%,white 50%,white);
+            background-position: 100% 0;
+            background-size: 210%;
+            transition: all .25s ease-in;
+        }
+        .btn:hover{
+            background-color: white;
+            color: black;
+            border-color: #5B14F2;
+            background-position: 0 0;
+            box-shadow: 0 0 10px #666;
+        }
+    }
+    
+    @media (max-width:376px) {
+      #contactsHeadPhoto{
+        width:100%;
+        height:78px;
+        position: relative;
+      }
+      #divForHeadtext1{
+        z-index: 2;
+        border-radius: 80px;
+        background-color: #ffffff;
+        height: 19px;
+        width: 260px;
+        box-shadow: 0 0 15px #666;
+        position: absolute;
+        top:15%;
+        left:16%;
+        text-align: center;
+        margin-left: 0px;
+      }
+      #headText1{
+        margin-top: 5px;
+        font-size: 9px;
+      }
+      #navigation {
+        font-size: 13px;
+        margin-top: 23px;
+        margin-left: 15px;
+      }
+      .pmain,.pcontacts{
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+      .pmain:hover{
+        font-size: 15px;
+      }
+      .pcontacts:hover{
+        font-size: 15px;
+      }
+      #form {
+        border-radius: 20px;
+        background-color: #ffffff;
+        height: 246px;
+        width: 315px;
+        margin-left: 30px;
+        margin-top: 36px;
+        margin-bottom: 51px;
+        box-shadow: 0 0 15px #666;
+        text-align: center;
+      }
+      #textForForm{
+        padding-top: 10px;
+        font-family: 'Roboto', sans-serif;
+        font-weight:bold;
+        font-size: 10px;
+      }
+      .form-container {
+        margin-left: 0px;
+        max-width: 314px;
+        padding-top: 10px;
+        padding-left: 0px;
+        background-color: white;
+        }
+        
+        .form-container input[type=text] {
+        width: 70%;
+        padding: 5px;
+        margin: 0px 0 13px 0;
+        border-radius: 20px;
+        border-color: #6527F2;
+        background: white;
+        font-size: 10px;
+        }
+        
+        .form-container input[type=text]:focus {
+        outline: none;
+        }
+        
+        .btn {
+            width: 116px;
+            height: 32px;
+            background-color: #5B14F2;
+            border-radius: 80px;
+            font-family: 'Open Sans';
+            font-weight: bold;
+            font-size:10px;
+            border: 3px solid;
+            margin-top: 0px;
+            text-align: center;
+            color:#ffffff;
+            text-decoration: none;
+            padding: 5px;
+            background-image: linear-gradient(to left,transparent,transparent 50%,white 50%,white);
+            background-position: 100% 0;
+            background-size: 210%;
+            transition: all .25s ease-in;
+        }
+        .btn:hover{
+            background-color: white;
+            color: black;
+            border-color: #5B14F2;
+            background-position: 0 0;
+            box-shadow: 0 0 10px #666;
+        }
+    }

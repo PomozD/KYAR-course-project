@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<pets xmlns:xlink="http://www.w3.org/1999/xlink">
+    <pet>
+        <itemId>cat</itemId>
+        <image>/koshki/boryanew.jpeg</image>
+        <name>Боря</name>
+        <history>История: у Бори парализованы задние лапки, нужно помогать ходить в туалет…</history>
+        <link>borya</link>
+    </pet>
+
+    <pet>
+        <itemId>dog</itemId>
+        <image>/sobaki/grom.jpg</image>
+        <name>Гром</name>
+        <history>История: в Грома стреляли и долгое время Гром находился на лечении. Сейчас он полностью восстановился и совершенно готов быть домашним… </history>
+        <link>grom</link>
+    </pet>
+
+    <pet>
+        <itemId>cat</itemId>
+        <image>/kotyata/marek.jpeg</image>
+        <name>Марек</name>
+        <history>История: найден прохожими на улице… </history>
+        <link>marek</link>
+    </pet>
+
+    <pet>
+        <itemId>dog</itemId>
+        <image>/schenki/masya.jpg</image>
+        <name>Мася</name>
+        <history>История: отказались хозяева… </history>
+        <link>masya</link>
+    </pet>
+
+    <pet>
+        <itemId>cat</itemId>
+        <image>/koshki/chereshnyanew.jpg</image>
+        <name>Черешня</name>
+        <history>История: прибыла с «Фауны города»… </history>
+        <link>chereshnya</link>
+    </pet>
+
+    <pet>
+        <itemId>dog</itemId>
+        <image>/sobaki/ivanew.jpg</image>
+        <name>Айва</name>
+        <history>История: была найдена прохожими на улице… </history>
+        <link>iva</link>
+    </pet>
+
+    <pet>
+        <itemId>dog</itemId>
+        <image>/schenki/pancho.jpeg</image>
+        <name>Панчо</name>
+        <history>История: отказались хозяева… </history>
+        <link>pancho</link>
+    </pet>
+
+    <pet>
+        <itemId>cat</itemId>
+        <image>/koshki/maks.jpeg</image>
+        <name>Макс</name>
+        <history>История: Макса покусали собаки на улице… </history>
+        <link>maks</link>
+    </pet>
+
+    <pet>
+        <itemId>dog</itemId>
+        <image>/sobaki/kasyanew.jpg</image>
+        <name>Кася</name>
+        <history>История: находится на передержке, ждет своих новых хозяев… </history>
+        <link>kasya</link>
+    </pet>
+</pets>

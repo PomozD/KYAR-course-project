@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<cats xmlns:xlink="http://www.w3.org/1999/xlink">
+    <cat>
+        <itemId>cat</itemId>
+        <image>/koshki/meri.jpeg</image>
+        <name>Мери</name>
+        <history>История: Мери нужно помогать ходить в туалет…</history>
+        <link>meri</link>
+    </cat>
+
+    <cat>
+        <itemId>cat</itemId>
+        <image>/koshki/mylkanew.jpeg</image>
+        <name>Мулька</name>
+        <history>История: прибыла с «Фауны города»… </history>
+        <link>mylka</link>
+    </cat>
+
+    <cat>
+        <itemId>cat</itemId>
+        <image>/koshki/tigrnew.jpeg</image>
+        <name>Тигр</name>
+        <history>История: Тигра покусали собаки, из-за этого у него возникла атония мочевого пузыря… </history>
+        <link>tigr</link>
+    </cat>
+
+    <cat>
+        <itemId>cat</itemId>
+        <image>/koshki/timnew.jpeg</image>
+        <name>Тим</name>
+        <history>История: отказались хозяева… </history>
+        <link>tim</link>
+    </cat>
+
+    <cat>
+        <itemId>cat</itemId>
+        <image>/koshki/tori.jpg</image>
+        <name>Тори</name>
+        <history>История: прибыл с «Фауны города» c пневмоторексом. Восстановился и сейчас полностью здоров… </history>
+        <link>tori</link>
+    </cat>
+
+    <cat>
+        <itemId>cat</itemId>
+        <image>/koshki/astorianew.jpg</image>
+        <name>Астория</name>
+        <history>История: Асторию сбила машина, из-за травмы был ампутирован хвост… </history>
+        <link>astoria</link>
+    </cat>
+
+    <cat>
+        <itemId>cat</itemId>
+        <image>/koshki/astranew.jpeg</image>
+        <name>Астра</name>
+        <history>История: Астра выпала из окна и из-за травмы стала инвалидом. После этого от нее отказались хозяева.
+Астра передвигается на передних  лапках.… </history>
+        <link>astra</link>
+    </cat>
+
+    <cat>
+        <itemId>cat</itemId>
+        <image>/koshki/basyanew.jpeg</image>
+        <name>Бася</name>
+        <history>История: Басю сбила машина, у нее были сломаны таз и задние лапы.  Практически полностью восстановилась… </history>
+        <link>basya</link>
+    </cat>
+
+    <cat>
+        <itemId>cat</itemId>
+        <image>/koshki/chipanew.jpeg</image>
+        <name>Чипа</name>
+        <history>История: отказались хозяева… </history>
+        <link>chipa</link>
+    </cat>
+</cats>

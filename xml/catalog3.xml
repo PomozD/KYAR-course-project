@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<pets xmlns:xlink="http://www.w3.org/1999/xlink">
+    <pet>
+        <itemId>cat</itemId>
+        <image>/koshki/germes.jpeg</image>
+        <name>Гермес</name>
+        <history>История: попал в приют после того, как подкармливавшие его люди обнаружили у кота глубокую гниющую рану на затылке…</history>
+        <link>germes</link>
+    </pet>
+
+    <pet>
+        <itemId>dog</itemId>
+        <image>/sobaki/forestnew.jpg</image>
+        <name>Форест</name>
+        <history>История: был сбит машиной, из-за этого иногда может прихрамывать. С нетерпением ждет свою новую семью… </history>
+        <link>forest</link>
+    </pet>
+
+    <pet>
+        <itemId>cat</itemId>
+        <image>/koshki/lerochkanew.jpeg</image>
+        <name>Лерочка</name>
+        <history>История: была найдена прохожими в трубе… </history>
+        <link>lerochka</link>
+    </pet>
+
+    <pet>
+        <itemId>cat</itemId>
+        <image>/koshki/lesya.jpeg</image>
+        <name>Леся</name>
+        <history>История: отказались хозяева… </history>
+        <link>lesya</link>
+    </pet>
+
+    <pet>
+        <itemId>cat</itemId>
+        <image>/kotyata/limonnew.jpeg</image>
+        <name>Лаймон</name>
+        <history>История: найден прохожими на свалке… </history>
+        <link>limon</link>
+    </pet>
+
+    <pet>
+        <itemId>cat</itemId>
+        <image>/koshki/oskar.jpeg</image>
+        <name>Оскар</name>
+        <history>История: Оскара сбила машина… </history>
+        <link>oskar</link>
+    </pet>
+
+    <pet>
+        <itemId>cat</itemId>
+        <image>/koshki/ruslananew.jpeg</image>
+        <name>Руслана</name>
+        <history>История: отказались хозяева… </history>
+        <link>ruslana</link>
+    </pet>
+
+    <pet>
+        <itemId>dog</itemId>
+        <image>/schenki/kryella.jpg</image>
+        <name>Круэлла</name>
+        <history>История: отказались хозяева… </history>
+        <link>kryella</link>
+    </pet>
+
+    <pet>
+        <itemId>cat</itemId>
+        <image>/koshki/venyanew.jpg</image>
+        <name>Веня</name>
+        <history>История: забран с «Фауны Города»… </history>
+        <link>venya</link>
+    </pet>
+</pets>

@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<pets xmlns:xlink="http://www.w3.org/1999/xlink">
+    <pet>
+        <itemId>dog</itemId>
+        <image>/schenki/tyzik.jpeg</image>
+        <name>Тузик</name>
+        <history>История: хозяева выбросили щенков, Тузик единственный выжил и тпереь ищет родителей…</history>
+        <link>tyzik</link>
+    </pet>
+
+    <pet>
+        <itemId>cat</itemId>
+        <image>/koshki/ledinew.jpeg</image>
+        <name>Леди</name>
+        <history>История: отказались хозяева… </history>
+        <link>ledi</link>
+    </pet>
+
+    <pet>
+        <itemId>dog</itemId>
+        <image>/sobaki/pushkinnew.jpg</image>
+        <name>Пушкин</name>
+        <history>История: к сожалению от Пушкина отказались хозяева… </history>
+        <link>pushkin</link>
+    </pet>
+
+    <pet>
+        <itemId>dog</itemId>
+        <image>/sobaki/reksanew.jpg</image>
+        <name>Рекса</name>
+        <history>История: от Рексы отказались хозяева… </history>
+        <link>reksa</link>
+    </pet>
+
+    <pet>
+        <itemId>cat</itemId>
+        <image>/koshki/nochkanew.jpeg</image>
+        <name>Ночка</name>
+        <history>История: отказались хозяева… </history>
+        <link>nochka</link>
+    </pet>
+
+    <pet>
+        <itemId>dog</itemId>
+        <image>/sobaki/slimnew.jpg</image>
+        <name>Слим</name>
+        <history>История: к сожалению от Слима отказались хозяева, он с нетерпением ждет свою новую семью… </history>
+        <link>slim</link>
+    </pet>
+
+    <pet>
+        <itemId>dog</itemId>
+        <image>/sobaki/taira.jpg</image>
+        <name>Тайра</name>
+        <history>История: раньше она жила дома, но по неизвестной причине ее бросили и ей пришлось выживать на улице в холодной будке… </history>
+        <link>taira</link>
+    </pet>
+
+    <pet>
+        <itemId>cat</itemId>
+        <image>/koshki/steshanew.jpeg</image>
+        <name>Стеша</name>
+        <history>История: приехала из ужасного стихийника… </history>
+        <link>stesha</link>
+    </pet>
+
+    <pet>
+        <itemId>dog</itemId>
+        <image>/sobaki/twixnew.jpg</image>
+        <name>Твикс</name>
+        <history>История: все детство он боролся за свою жизнь с инфекциями...Он выжил, но к сожалению, семья его до сих пор не заметила. Он готов быть домашним… </history>
+        <link>twix</link>
+    </pet>
+</pets>

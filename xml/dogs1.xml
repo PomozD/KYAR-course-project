@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<dogs xmlns:xlink="http://www.w3.org/1999/xlink">
+    <dog>
+        <itemId>dog</itemId>
+        <image>/sobaki/bytyznew.jpg</image>
+        <name>Бутуз</name>
+        <history>История: находится на передержке, с нетерпением ждет своих новых родителей… </history>
+        <link>bytyz</link>
+    </dog>
+
+    <dog>
+        <itemId>dog</itemId>
+        <image>/sobaki/cigannew.jpg</image>
+        <name>Цыган</name>
+        <history>История: находится на передержке, ждет свою новую семью, где его будут любить… </history>
+        <link>cigan</link>
+    </dog>
+
+    <dog>
+        <itemId>dog</itemId>
+        <image>/sobaki/forestnew.jpg</image>
+        <name>Форест</name>
+        <history>История: был сбит машиной, из-за этого иногда может прихрамывать. С нетерпением ждет свою новую семью… </history>
+        <link>forest</link>
+    </dog>
+
+    <dog>
+        <itemId>dog</itemId>
+        <image>/sobaki/grom.jpg</image>
+        <name>Гром</name>
+        <history>История: в Грома стреляли и долгое время Гром находился на лечении. Сейчас он полностью восстановился и совершенно готов быть домашним… </history>
+        <link>grom</link>
+    </dog>
+
+    <dog>
+        <itemId>dog</itemId>
+        <image>/sobaki/ivanew.jpg</image>
+        <name>Айва</name>
+        <history>История: была найдена прохожими на улице… </history>
+        <link>iva</link>
+    </dog>
+
+    <dog>
+        <itemId>dog</itemId>
+        <image>/sobaki/kasyanew.jpg</image>
+        <name>Кася</name>
+        <history>История: находится на передержке, ждет своих новых хозяев… </history>
+        <link>kasya</link>
+    </dog>
+
+    <dog>
+        <itemId>dog</itemId>
+        <image>/sobaki/labriknew.jpg</image>
+        <name>Лабрик</name>
+        <history>История: находится на передержке, ждет своих новых хозяев… </history>
+        <link>labrik</link>
+    </dog>
+
+    <dog>
+        <itemId>dog</itemId>
+        <image>/sobaki/motyanew.jpg</image>
+        <name>Мотя</name>
+        <history>История: находится на передержке, ждет такого же мудрого хозяина как и он сам… </history>
+        <link>motya</link>
+    </dog>
+
+    <dog>
+        <itemId>dog</itemId>
+        <image>/sobaki/psylnew.jpg</image>
+        <name>Псуль</name>
+        <history>История: Псуль был когда-то домашним, но был предан семьей и оказался в приюте… </history>
+        <link>psyl</link>
+    </dog>
+</dogs>

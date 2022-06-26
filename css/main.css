@@ -1,0 +1,962 @@
+html, body {padding:0; margin:0;}
+a{
+  text-decoration: none;
+}
+#photoAndDescryption {
+  margin-top: 50px;
+  margin-left: 200px;
+  display:flex;
+}
+#descryption {
+  border-radius: 20px;
+  background-color: #ffffff;
+  height: 301px;
+  width: 537px;
+  margin-left: 140px;
+  margin-top: 150px;
+  box-shadow: 0 0 15px #666;
+}
+#pFosterFamily {
+  font-family: 'Roboto', sans-serif;
+  font-weight:bolder;
+  margin-left: 50px;
+  margin-top: 40px;
+  font-size: 50px;
+  text-decoration: none;
+}
+#descryptionpFosterFamily {
+  margin-left: 51px;
+  margin-top: 12px;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+#buttonChooseAPet {
+  width: 232px;
+  height: 20px; 
+  background-color: #5B14F2;
+  border-radius: 80px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  border: 3px solid;
+  margin-left: 50px;
+  margin-top: 30px;
+  text-align: center;
+  color:#ffffff;
+  text-decoration: none;
+  padding: 10px;
+  background-image: linear-gradient(to left,transparent,transparent 50%,white 50%,white);
+  background-position: 100% 0;
+  background-size: 210%;
+  transition: all .25s ease-in;
+}
+#buttonChooseAPet:hover {
+  background-color: white;
+  color: black;
+  border-color: #5B14F2;
+  background-position: 0 0;
+  box-shadow: 0 0 10px #666;
+}
+#secondBoard{
+  background-color: #E6F3FF;
+  width: 100%;
+  height:825px;
+}
+#pSecondBoard{
+  padding-top:70px;
+  margin-left: 150px;
+  margin-right: 150px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+}
+#_1line{
+  margin-top: 30px;
+}
+#_1circle{
+  width:192px;
+  height: 192px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+  background: #5B14F2;
+  border-radius: 50%;
+}
+#_1photoWithPet{
+  width: 176px;
+  height:176px;
+  margin:8px 8px 8px 8px;
+}
+#_1containerForLineAndLink1 {
+  display: flex;
+  flex-direction:column;
+}
+#_1link {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+  color:#000000;
+  margin-top: 40px;
+  margin-left: 280px;
+}
+#_1containerForLineAndLink1AndPhoto {
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+}
+
+
+#_2line{
+  margin-top: 30px;
+}
+#_2circle{
+  width:192px;
+  height: 192px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+  background: #5B14F2;
+  border-radius: 50%;
+}
+#_2photoWithPet{
+  width: 176px;
+  height:176px;
+  margin:8px 8px 8px 8px;
+}
+#_2containerForLineAndLink2 {
+  display: flex;
+  flex-direction:column;
+}
+#_2link {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+  color:#000000;
+  margin-top: 40px;
+  margin-left: 45px;
+}
+#_2containerForLineAndLink2AndPhoto {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 70px;
+}
+
+
+#_1and_2container{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+#ptextOnSecondBoard{
+  margin-top:60px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  text-decoration: none;
+}
+
+
+#_3line{
+  margin-top: 30px;
+}
+#_3circle{
+  width:192px;
+  height: 192px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+  background: #5B14F2;
+  border-radius: 50%;
+}
+#_3photoWithPet{
+  width: 176px;
+  height:176px;
+  margin:8px 8px 8px 8px;
+}
+#_3containerForLineAndLink3 {
+  display: flex;
+  flex-direction:column;
+}
+#_3link {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+  color:#000000;
+  margin-top: 40px;
+  margin-left: 280px;
+}
+#_3containerForLineAndLink3AndPhoto {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+
+#_4line{
+  margin-top: 30px;
+}
+#_4circle{
+  width:192px;
+  height: 192px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+  background: #5B14F2;
+  border-radius: 50%;
+}
+#_4photoWithPet{
+  width: 176px;
+  height:176px;
+  margin:8px 8px 8px 8px;
+}
+#_4containerForLineAndLink4 {
+  display: flex;
+  flex-direction:column;
+}
+#_4link {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+  color:#000000;
+  margin-top: 40px;
+  margin-left: 45px;
+}
+#_4containerForLineAndLink4AndPhoto {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 30px;
+}
+
+
+#_3and_4container{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+#pthirdBoard{
+  padding-top:30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  text-decoration: none;
+  text-align: center;
+}
+#_1and_2containerForPhotoAndText{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 50px;
+  margin-top: 70px;
+}
+
+#_1containerForPhotoAndText {
+  display: flex;
+  margin-left: 50px;
+}
+#_1icon {
+  width: 128px;
+  height: 78px;
+  margin-top: 30px;
+}
+#_1divForText {
+  margin-top: 20px;
+  margin-left: 40px;
+  width:400px;
+}
+#_1text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color:#000000;
+}
+
+#_2containerForPhotoAndText {
+  display: flex;
+}
+#_2icon {
+  width: 128px;
+  height: 78px;
+  margin-top: 30px;
+}
+#_2divForText {
+  margin-left: 40px;
+  width:400px;
+}
+#_2text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color:#000000;
+}
+
+
+#_3and_4containerForPhotoAndText{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 50px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+#_3containerForPhotoAndText {
+  display: flex;
+  margin-left: 50px;
+}
+#_3icon {
+  width: 122px;
+  height: 111px;
+  margin-top: 30px;
+}
+#_3divForText {
+  margin-top: 30px;
+  margin-left: 40px;
+  width:400px;
+}
+#_3text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color:#000000;
+}
+
+#_4containerForPhotoAndText {
+  display: flex;
+}
+#_4icon {
+  width: 133px;
+  height: 111px;
+  margin-top: 30px;
+}
+#_4divForText {
+  margin-top: 20px;
+  margin-left: 40px;
+  width:400px;
+}
+#_4text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color:#000000;
+}
+#_11line{
+  display: none;
+}
+#_22line{
+  display: none;
+}
+#_33line{
+  display: none;
+}
+#_44line{
+  display: none;
+}
+
+
+@media (max-width:768px) {
+  #photoAndDescryption {
+    margin-top: 10px;
+    margin-left: 25px;
+    display:flex;
+  }
+  #imgKot{
+    width:318px;
+    height: 400px;
+  }
+  #descryption {
+    height: 190px;
+    width: 312px;
+    margin-left: 40px;
+    margin-top: 100px;
+  }
+  #pFosterFamily {
+    font-family: 'Roboto', sans-serif;
+    font-weight:bolder;
+    margin-left: 25px;
+    margin-top: 30px;
+    font-size: 30px;
+    text-decoration: none;
+  }
+  #descryptionpFosterFamily {
+    margin-left: 25px;
+    margin-top: 12px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+  }
+  #buttonChooseAPet {
+    width: 114px;
+    height: 9px;
+    margin-left: 25px;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 9px;
+    line-height: 1;
+  }
+  #secondBoard{
+    height:500px;
+  }
+  #pSecondBoard{
+    padding-top:70px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 20px;
+  }
+  #_1line{
+    margin-top: 30px;
+    width: 193px;
+  }
+  #_11line{
+    display: none;
+  }
+  #_22line{
+    display: none;
+  }
+  #_33line{
+    display: none;
+  }
+  #_44line{
+    display: none;
+  }
+  #_1circle{
+    width:86px;
+    height: 86px;
+    margin-top: 32px;
+  }
+  #_1photoWithPet{
+    width: 78px;
+    height:78px;
+    margin:4px 4px 4px 4px;
+  }
+  #_1containerForLineAndLink1 {
+    display: flex;
+    flex-direction:column;
+  }
+  #_1link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color:#000000;
+    margin-top: 16px;
+    margin-left: 115px;
+  }
+  #_1containerForLineAndLink1AndPhoto {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+
+  #_2line{
+    margin-top: 30px;
+    width: 193px;
+  }
+  #_2circle{
+    width:86px;
+    height: 86px;
+    margin-top: 32px;
+  }
+  #_2photoWithPet{
+    width: 78px;
+    height:78px;
+    margin:4px 4px 4px 4px;
+  }
+  #_2containerForLineAndLink2 {
+    display: flex;
+    flex-direction:column;
+  }
+  #_2link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color:#000000;
+    margin-top: 16px;
+    margin-left: 30px;
+  }
+  #_2containerForLineAndLink2AndPhoto {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+  }
+  #ptextOnSecondBoard{
+    margin-top:30px;
+    font-size: 25px;
+  }
+
+
+  #_3line{
+    margin-top: 30px;
+    width: 193px;
+  }
+  #_3circle{
+    width:86px;
+    height: 86px;
+    margin-top: 32px;
+  }
+  #_3photoWithPet{
+    width: 78px;
+    height:78px;
+    margin:4px 4px 4px 4px;
+  }
+  #_3containerForLineAndLink3 {
+    display: flex;
+    flex-direction:column;
+  }
+  #_3link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color:#000000;
+    margin-top: 16px;
+    margin-left: 115px;
+  }
+  #_3containerForLineAndLink3AndPhoto {
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+  }
+  
+  
+  #_4line{
+    margin-top: 30px;
+    width: 193px;
+  }
+  #_4circle{
+    width:86px;
+    height: 86px;
+    margin-top: 32px;
+  }
+  #_4photoWithPet{
+    width: 78px;
+    height:78px;
+    margin:4px 4px 4px 4px;
+  }
+  #_4containerForLineAndLink4 {
+    display: flex;
+    flex-direction:column;
+  }
+  #_4link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color:#000000;
+    margin-top: 16px;
+    margin-left: 30px;
+  }
+  #_4containerForLineAndLink4AndPhoto {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: -20px;
+  }
+  #pthirdBoard{
+    padding-top:20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+
+  #_1and_2containerForPhotoAndText{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+    margin-top: 70px;
+  }
+  
+  #_1containerForPhotoAndText {
+    display: flex;
+    margin-left: 20px;
+  }
+  #_1icon {
+    width: 90px;
+    height: 55px;
+    margin-top: 30px;
+  }
+  #_1divForText {
+    margin-top: 20px;
+    margin-left: 25px;
+    width:212px;
+  }
+  #_1text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color:#000000;
+  }
+  
+  #_2containerForPhotoAndText {
+    display: flex;
+    margin-left: 10px;
+  }
+  #_2icon {
+    width: 90px;
+    height: 55px;
+    margin-top: 30px;
+  }
+  #_2divForText {
+    margin-top: -10px;
+    margin-left: 25px;
+    width:212px;
+  }
+  #_2text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color:#000000;
+  }
+  
+  
+  #_3and_4containerForPhotoAndText{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  #_3containerForPhotoAndText {
+    display: flex;
+    margin-left: 20px;
+  }
+  #_3icon {
+    width: 76px;
+    height: 71px;
+    margin-top: 30px;
+  }
+  #_3divForText {
+    margin-top: 20px;
+    margin-left: 35px;
+    width:212px;
+  }
+  #_3text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color:#000000;
+  }
+  
+  #_4containerForPhotoAndText {
+    display: flex;
+    margin-left: 10px;
+  }
+  #_4icon {
+    width: 85px;
+    height: 72px;
+    margin-top: 30px;
+  }
+  #_4divForText {
+    margin-top: -10px;
+    margin-left: 30px;
+    width:212px;
+  }
+  #_4text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color:#000000;
+  }
+}
+@media (max-width:376px) {
+  #photoAndDescryption {
+    margin-top: 1px;
+    display:flex;
+    flex-direction: column;
+  }
+  #imgKot{
+    width:318px;
+    height: 400px;
+  }
+  #descryption {
+    height: 152px;
+    width: 312px;
+    margin-left: 6px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  #pFosterFamily {
+    font-family: 'Roboto', sans-serif;
+    font-weight:bolder;
+    margin-left: 0px;
+    margin-top: 20px;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  #descryptionpFosterFamily {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+  }
+  #buttonChooseAPet {
+    width: 95px;
+    height: 3px;
+    margin-left: 97px;
+    margin-top: 18px;
+    padding: 10px;
+    font-size: 8px;
+    line-height: 1%;
+    padding-top: 4%;
+  }
+  #secondBoard{
+    height:270px;
+  }
+  #pSecondBoard{
+    padding-top:29px;
+    margin-left: 29px;
+    margin-right: 29px;
+    font-size: 12px;
+  }
+  #_1line{
+    display: none;
+  }
+  #_11line{
+    display: block;
+    margin-top: 11px;
+    width: 100px;
+  }
+  #_1circle{
+    width:50px;
+    height: 50px;
+    margin-top: 14px;
+  }
+  #_1photoWithPet{
+    width: 46px;
+    height:46px;
+    margin:2px 2px;
+  }
+  #_1containerForLineAndLink1 {
+    display: flex;
+    flex-direction:column;
+  }
+  #_1link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color:#000000;
+    margin-top: 16px;
+    margin-left: 54px;
+  }
+  #_1containerForLineAndLink1AndPhoto {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+  }
+
+  #_2line{
+    display: none;
+  }
+  #_22line{
+    display: block;
+    margin-top: 11px;
+    width: 100px;
+  }
+  #_2circle{
+    width:50px;
+    height: 50px;
+    margin-top: 14px;
+  }
+  #_2photoWithPet{
+    width: 46px;
+    height:46px;
+    margin:2px 2px 2px 2px;
+  }
+  #_2containerForLineAndLink2 {
+    display: flex;
+    flex-direction:column;
+  }
+  #_2link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color:#000000;
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+  #_2containerForLineAndLink2AndPhoto {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 0px;
+  }
+  #ptextOnSecondBoard{
+    margin-top:15px;
+    font-size: 12px;
+  }
+
+
+  #_3line{
+    display: none;
+  }
+  #_33line{
+    display: block;
+    margin-top: 11px;
+    width: 100px;
+  }
+  #_3circle{
+    width:50px;
+    height: 50px;
+    margin-top: 14px;
+  }
+  #_3photoWithPet{
+    width: 46px;
+    height:46px;
+    margin:2px 2px;
+  }
+  #_3containerForLineAndLink3 {
+    display: flex;
+    flex-direction:column;
+  }
+  #_3link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color:#000000;
+    margin-top: 16px;
+    margin-left: 54px;
+  }
+  #_3containerForLineAndLink3AndPhoto {
+    display: flex;
+    flex-direction: row;
+    margin-top: -10px;
+  }
+  
+  
+  #_4line{
+    display: none;
+  }
+  #_44line{
+    display: block;
+    margin-top: 11px;
+    width: 100px;
+  }
+  #_4circle{
+    width:50px;
+    height: 50px;
+    margin-top: 14px;
+  }
+  #_4photoWithPet{
+    width: 46px;
+    height:46px;
+    margin:2px 2px;
+  }
+  #_4containerForLineAndLink4 {
+    display: flex;
+    flex-direction:column;
+  }
+  #_4link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color:#000000;
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+  #_4containerForLineAndLink4AndPhoto {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: -10px;
+  }
+  #pthirdBoard{
+    padding-top:20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+
+  #_1and_2containerForPhotoAndText{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    margin-top: 0px;
+  }
+  
+  #_1containerForPhotoAndText {
+    display: flex;
+    margin-left: 20px;
+  }
+  #_1icon {
+    width: 34px;
+    height: 21px;
+    margin-top: 30px;
+  }
+  #_1divForText {
+    margin-top: 11px;
+    margin-left: 12px;
+    width:85px;
+  }
+  #_1text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+    text-decoration: none;
+    color:#000000;
+  }
+  
+  #_2containerForPhotoAndText {
+    display: flex;
+    margin-left: 10px;
+  }
+  #_2icon {
+    width: 34px;
+    height: 21px;
+    margin-top: 30px;
+  }
+  #_2divForText {
+    margin-top: 0px;
+    margin-left: 12px;
+    width:105px;
+  }
+  #_2text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+    text-decoration: none;
+    color:#000000;
+  }
+  
+  
+  #_3and_4containerForPhotoAndText{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    margin-top: 0px;
+  }
+  
+  #_3containerForPhotoAndText {
+    display: flex;
+    margin-left: 20px;
+  }
+  #_3icon {
+    width: 28px;
+    height: 25px;
+    margin-top: 30px;
+  }
+  #_3divForText {
+    margin-top: 11px;
+    margin-left: 15px;
+    width:85px;
+  }
+  #_3text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+    text-decoration: none;
+    color:#000000;
+  }
+  
+  #_4containerForPhotoAndText {
+    display: flex;
+    margin-left: 10px;
+  }
+  #_4icon {
+    width: 29px;
+    height: 24px;
+    margin-top: 30px;
+  }
+  #_4divForText {
+    margin-top: 0px;
+    margin-left: 15px;
+    width:105px;
+  }
+  #_4text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+    text-decoration: none;
+    color:#000000;
+  }
+}

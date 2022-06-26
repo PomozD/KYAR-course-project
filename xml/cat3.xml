@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<cats xmlns:xlink="http://www.w3.org/1999/xlink">
+    <cat>
+        <itemId>cat</itemId>
+        <image>/koshki/germes.jpeg</image>
+        <name>Гермес</name>
+        <history>История: попал в приют после того, как подкармливавшие его люди обнаружили у кота глубокую гниющую рану на затылке…</history>
+        <link>germes</link>
+    </cat>
+
+    <cat>
+        <itemId>cat</itemId>
+        <image>/koshki/ledinew.jpeg</image>
+        <name>Леди</name>
+        <history>История: отказались хозяева… </history>
+        <link>ledi</link>
+    </cat>
+
+    <cat>
+        <itemId>cat</itemId>
+        <image>/koshki/lerochkanew.jpeg</image>
+        <name>Лерочка</name>
+        <history>История: была найдена прохожими в трубе… </history>
+        <link>lerochka</link>
+    </cat>
+
+    <cat>
+        <itemId>cat</itemId>
+        <image>/koshki/lesya.jpeg</image>
+        <name>Леся</name>
+        <history>История: отказались хозяева… </history>
+        <link>lesya</link>
+    </cat>
+
+    <cat>
+        <itemId>cat</itemId>
+        <image>/koshki/nochkanew.jpeg</image>
+        <name>Ночка</name>
+        <history>История: отказались хозяева… </history>
+        <link>nochka</link>
+    </cat>
+
+    <cat>
+        <itemId>cat</itemId>
+        <image>/koshki/oskar.jpeg</image>
+        <name>Оскар</name>
+        <history>История: Оскара сбила машина… </history>
+        <link>oskar</link>
+    </cat>
+
+    <cat>
+        <itemId>cat</itemId>
+        <image>/koshki/ruslananew.jpeg</image>
+        <name>Руслана</name>
+        <history>История: отказались хозяева… </history>
+        <link>ruslana</link>
+    </cat>
+
+    <cat>
+        <itemId>cat</itemId>
+        <image>/koshki/steshanew.jpeg</image>
+        <name>Стеша</name>
+        <history>История: приехала из ужасного стихийника… </history>
+        <link>stesha</link>
+    </cat>
+
+    <cat>
+        <itemId>cat</itemId>
+        <image>/koshki/venyanew.jpg</image>
+        <name>Веня</name>
+        <history>История: забран с «Фауны Города»… </history>
+        <link>venya</link>
+    </cat>
+</cats>

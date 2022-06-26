@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<pets xmlns:xlink="http://www.w3.org/1999/xlink">
+    <pet>
+        <itemId>dog</itemId>
+        <image>/schenki/rozochka.jpg</image>
+        <name>Розочка</name>
+        <history>История: найдена на улице прохожими…</history>
+        <link>rozochka</link>
+    </pet>
+
+    <pet>
+        <itemId>cat</itemId>
+        <image>/koshki/mylkanew.jpeg</image>
+        <name>Мулька</name>
+        <history>История: прибыла с «Фауны города»… </history>
+        <link>mylka</link>
+    </pet>
+
+    <pet>
+        <itemId>dog</itemId>
+        <image>/sobaki/labriknew.jpg</image>
+        <name>Лабрик</name>
+        <history>История: находится на передержке, ждет своих новых хозяев… </history>
+        <link>labrik</link>
+    </pet>
+
+    <pet>
+        <itemId>dog</itemId>
+        <image>/schenki/sancho.jpeg</image>
+        <name>Санчо</name>
+        <history>История: находится на передержке, ждет своих родителей… </history>
+        <link>sancho</link>
+    </pet>
+
+    <pet>
+        <itemId>cat</itemId>
+        <image>/koshki/tori.jpg</image>
+        <name>Тори</name>
+        <history>История: прибыл с «Фауны города» c пневмоторексом. Восстановился и сейчас полностью здоров… </history>
+        <link>tori</link>
+    </pet>
+
+    <pet>
+        <itemId>dog</itemId>
+        <image>/sobaki/motyanew.jpg</image>
+        <name>Мотя</name>
+        <history>История: находится на передержке, ждет такого же мудрого хозяина как и он сам… </history>
+        <link>motya</link>
+    </pet>
+
+    <pet>
+        <itemId>dog</itemId>
+        <image>/schenki/shtirlic.jpg</image>
+        <name>Штирлиц</name>
+        <history>История: был найден на улице прохожими… </history>
+        <link>shtirlic</link>
+    </pet>
+
+    <pet>
+        <itemId>cat</itemId>
+        <image>/koshki/basyanew.jpeg</image>
+        <name>Бася</name>
+        <history>История: Басю сбила машина, у нее были сломаны таз и задние лапы.  Практически полностью восстановилась… </history>
+        <link>basya</link>
+    </pet>
+
+    <pet>
+        <itemId>dog</itemId>
+        <image>/sobaki/psylnew.jpg</image>
+        <name>Псуль</name>
+        <history>История: Псуль был когда-то домашним, но был предан семьей и оказался в приюте… </history>
+        <link>psyl</link>
+    </pet>
+</pets>

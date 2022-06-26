@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<cats xmlns:xlink="http://www.w3.org/1999/xlink">
+    <cat>
+        <itemId>cat</itemId>
+        <image>/koshki/apollonnew.jpeg</image>
+        <name>Апполон</name>
+        <history>История: расстрелян на даче, после чего отнялись задние ножки, атония мочевого…</history>
+        <link>apollon</link>
+    </cat>
+
+    <cat>
+        <itemId>cat</itemId>
+        <image>/koshki/barik.jpeg</image>
+        <name>Барик</name>
+        <history>История: у Барика небольшие проблемы с координацией из-за порока развития… </history>
+        <link>barik</link>
+    </cat>
+
+    <cat>
+        <itemId>cat</itemId>
+        <image>/koshki/boryanew.jpeg</image>
+        <name>Боря</name>
+        <history>История: у Бори парализованы задние лапки, нужно помогать ходить в туалет…</history>
+        <link>borya</link>
+    </cat>
+
+    <cat>
+        <itemId>cat</itemId>
+        <image>/koshki/charli.jpeg</image>
+        <name>Чарли</name>
+        <history>История: отказались хозяева… </history>
+        <link>charli</link>
+    </cat>
+
+    <cat>
+        <itemId>cat</itemId>
+        <image>/koshki/chereshnyanew.jpg</image>
+        <name>Черешня</name>
+        <history>История: прибыла с «Фауны города»… </history>
+        <link>chereshnya</link>
+    </cat>
+
+    <cat>
+        <itemId>cat</itemId>
+        <image>/koshki/jonninew.jpeg</image>
+        <name>Джонни</name>
+        <history>История: парализованы задние лапки, нужно помогать ходить в туалет… </history>
+        <link>jonni</link>
+    </cat>
+
+    <cat>
+        <itemId>cat</itemId>
+        <image>/koshki/kysya.jpg</image>
+        <name>Куся</name>
+        <history>История: прибыла с «Фауны города» вместе с котятами. Дети разъехались по домам, а она осталась… </history>
+        <link>kysya</link>
+    </cat>
+
+    <cat>
+        <itemId>cat</itemId>
+        <image>/koshki/maks.jpeg</image>
+        <name>Макс</name>
+        <history>История: Макса покусали собаки на улице… </history>
+        <link>maks</link>
+    </cat>
+
+    <cat>
+        <itemId>cat</itemId>
+        <image>/koshki/melissanew.jpg</image>
+        <name>Мелисса</name>
+        <history>История: забрана с «Фауны города»… </history>
+        <link>melissa</link>
+    </cat>
+</cats>

@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<dogs xmlns:xlink="http://www.w3.org/1999/xlink">
+    <dog>
+        <itemId>dog</itemId>
+        <image>/schenki/betsi.jpeg</image>
+        <name>Бетси</name>
+        <history>История: отказались хозяева… </history>
+        <link>betsi</link>
+    </dog>
+
+    <dog>
+        <itemId>dog</itemId>
+        <image>/schenki/dolka.jpeg</image>
+        <name>Долька</name>
+        <history>История: Долька живёт на передержке и ждёт своих родителей… </history>
+        <link>dolka</link>
+    </dog>
+
+    <dog>
+        <itemId>dog</itemId>
+        <image>/schenki/kryella.jpg</image>
+        <name>Круэлла</name>
+        <history>История: отказались хозяева… </history>
+        <link>kryella</link>
+    </dog>
+
+    <dog>
+        <itemId>dog</itemId>
+        <image>/schenki/masya.jpg</image>
+        <name>Мася</name>
+        <history>История: отказались хозяева… </history>
+        <link>masya</link>
+    </dog>
+
+    <dog>
+        <itemId>dog</itemId>
+        <image>/schenki/pancho.jpeg</image>
+        <name>Панчо</name>
+        <history>История: отказались хозяева… </history>
+        <link>pancho</link>
+    </dog>
+
+    <dog>
+        <itemId>dog</itemId>
+        <image>/schenki/rozochka.jpg</image>
+        <name>Розочка</name>
+        <history>История: найдена на улице прохожими…</history>
+        <link>rozochka</link>
+    </dog>
+
+    <dog>
+        <itemId>dog</itemId>
+        <image>/schenki/sancho.jpeg</image>
+        <name>Санчо</name>
+        <history>История: находится на передержке, ждет своих родителей… </history>
+        <link>sancho</link>
+    </dog>
+
+    <dog>
+        <itemId>dog</itemId>
+        <image>/schenki/shtirlic.jpg</image>
+        <name>Штирлиц</name>
+        <history>История: был найден на улице прохожими… </history>
+        <link>shtirlic</link>
+    </dog>
+
+    <dog>
+        <itemId>dog</itemId>
+        <image>/schenki/tyzik.jpeg</image>
+        <name>Тузик</name>
+        <history>История: хозяева выбросили щенков, Тузик единственный выжил и тпереь ищет родителей…</history>
+        <link>tyzik</link>
+    </dog>
+</dogs>

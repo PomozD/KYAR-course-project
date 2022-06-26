@@ -1,0 +1,570 @@
+html, body {padding:0; margin:0;}
+a{ 
+  text-decoration: none;
+}
+#navigation {
+  display: flex;
+  color:black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  text-decoration: none;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.pmain,.pcatalog,.pcats,.pnamepet{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.pmain:hover{
+  font-size: 18px;
+  transition: 0.15s ease-out;
+  display: inline-block;
+}
+.pcatalog:hover{
+  font-size: 18px;
+  transition: 0.15s ease-out;
+  display: inline-block;
+}
+.pcats:hover{
+    font-size: 18px;
+    transition: 0.15s ease-out;
+    display: inline-block;
+  }
+.pnamepet:hover{
+    font-size: 18px;
+  transition: 0.15s ease-out;
+  display: inline-block;
+}
+#divForCatalogHeadPhoto{
+  width:100%;
+  height: 100%;
+}
+#catalogHeadPhoto{
+  width:100%;
+  height:245px;
+  z-index: 1;
+  position: relative;
+}
+#divForHeadtext1{
+  z-index: 2;
+  border-radius: 80px;
+  background-color: #ffffff;
+  height: 55px;
+  width: 740px;
+  box-shadow: 0 0 15px #666;
+  position: absolute;
+  top:28%;
+  left:25%;
+  text-align: center;
+}
+#headText1{
+  margin-top: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: none;
+}
+#divForHeadtext2{
+  z-index: 2;
+  position: absolute;
+  top:30%;
+  left:34%;
+  text-align: center;
+}
+#headText2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+#mainDiv{
+    display: flex;
+}
+
+.imgslider{
+    border-radius: 20px;
+}
+#divForCarousel{
+    display: flex;
+    margin-top: 50px;
+    width:50%;
+    margin-left: 3%;
+}
+#divForCarousel{
+    display: flex;
+    margin-top: 50px;
+    width:50%;
+    margin-left: 3%;
+}
+ .sl_ctr{
+position:relative;
+width:550px;
+height:550px;
+overflow:hidden;
+padding-bottom: 8%;
+}
+.sldr{
+position:relative;
+width:10000px;
+height:300px;
+}
+.sldr img{
+float:left;
+}
+.prv_b, .nxt_b{
+margin-top: 32%;
+display:block;
+width:35px;
+height:35px;
+cursor:pointer;
+padding-left: 4%;
+padding-right: 2%;
+}
+.prv_b:hover, .nxt_b:hover{opacity:.6;}
+.prv_b{
+left:10px;
+}
+.nxt_b{
+right:10px;
+}
+#containerForDivNameAndDivHistory{
+    display: flex;
+    flex-direction: column;
+}
+#divName {
+    border-radius: 20px;
+    background-color: #ffffff;
+    height: 60px;
+    width: 600px;
+    margin-left: 35px;
+    margin-top: 50px;
+    box-shadow: 0 0 15px #666;
+    text-align: center;
+  }
+  #pDivName {
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 10px;
+    font-size: 36px;
+    text-decoration: none;
+  }
+  #divHistory {
+    border-radius: 20px;
+    background-color: #ffffff;
+    height: 340px;
+    width: 600px;
+    margin-left: 35px;
+    margin-top: 20px;
+    padding-top: 25px;
+    box-shadow: 0 0 15px #666;
+  }
+  #pHistory,#pCharacter, #pAge, #pSex, #pMedicine {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .btn {
+    width: 232px;
+  height: 55px;
+  background-color: #5B14F2;
+  border-radius: 80px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size:20px;
+  border: 3px solid #5B14F2;
+  margin-left: 210px;
+  margin-top: 30px;
+  text-align: center;
+  color:#ffffff;
+  text-decoration: none;
+  padding: 10px;
+  background-image: linear-gradient(to left,transparent,transparent 50%,white 50%,white);
+  background-position: 100% 0;
+  background-size: 240%;
+  transition: all .25s ease-in;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    background-position: 0 0;
+    box-shadow: 0 0 10px #666;
+}
+#divName1{
+  display:none;
+  border-radius: 20px;
+  background-color: #ffffff;
+  height: 60px;
+  width: 600px;
+  margin-left: 35px;
+  margin-top: 50px;
+  box-shadow: 0 0 15px #666;
+  text-align: center;
+}
+#pDivName1{
+  font-family: 'Roboto', sans-serif;
+  font-weight:bold;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-top: 10px;
+  font-size: 36px;
+  text-decoration: none;
+}
+@media (max-width:768px) {
+  #catalogHeadPhoto{
+    width:100%;
+    height:159px;
+    position: relative;
+  }
+  #divForHeadtext1{
+    z-index: 2;
+    border-radius: 80px;
+    background-color: #ffffff;
+    height: 44px;
+    width: 480px;
+    box-shadow: 0 0 15px #666;
+    position: absolute;
+    top:17%;
+    left:20%;
+    text-align: center;
+  }
+  #headText1{
+    margin-top: 15px;
+    font-size: 16px;
+  }
+  #divForHeadtext2{
+    z-index: 2;
+    top:20%;
+    left:34%;
+    position: absolute;
+    text-align: center;
+  }
+  #headText2{
+    font-size: 30px;
+  }
+  #navigation {
+    font-size: 13px;
+    margin-top: 23px;
+    margin-left: 32px;
+  }
+  .pmain,.pcatalog,.pcats,.pnamepet{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .pmain:hover{
+    font-size: 15px;
+  }
+  .pcatalog:hover{
+    font-size: 15px;
+  }
+  .pcats:hover{
+    font-size: 15px;
+  }
+  .pnamepet:hover{
+    font-size: 15px;
+  }
+  #mainDiv{
+    display: flex;
+}
+
+.imgslider{
+    border-radius: 20px;
+    width:314px;
+    height: 313px;
+}
+#mainDiv{
+  flex-direction: column;
+}
+#divForCarousel{
+    display: flex;
+    margin-top: 50px;
+    width:80%;
+    margin-left: 20%;
+}
+ .sl_ctr{
+position:relative;
+width:313px;
+height:313px;
+overflow:hidden;
+padding-bottom: 8%;
+}
+.sldr{
+position:relative;
+width:10000px;
+height:300px;
+}
+.sldr img{
+float:left;
+}
+.prv_b, .nxt_b{
+margin-top: 22%;
+display:block;
+width:35px;
+height:35px;
+cursor:pointer;
+padding-left: 4%;
+padding-right: 2%;
+}
+.prv_b:hover, .nxt_b:hover{opacity:.6;}
+.prv_b{
+left:10px;
+}
+.nxt_b{
+right:10px;
+}
+#containerForDivNameAndDivHistory{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#divName1{
+  display:block;
+  border-radius: 20px;
+  background-color: #ffffff;
+  height: 38px;
+  width: 630px;
+  margin-left: 70px;
+  margin-top: 50px;
+  box-shadow: 0 0 15px #666;
+  text-align: center;
+}
+#pDivName1{
+  font-family: 'Roboto', sans-serif;
+  font-weight:bold;
+  margin-left: 82px;
+  margin-right: 80px;
+  padding-top: 10px;
+  font-size: 18px;
+  text-decoration: none;
+}
+#divName {
+    display:none;
+  }
+  #divHistory {
+    border-radius: 20px;
+    background-color: #ffffff;
+    height: 224px;
+    width: 655px;
+    margin-left: 55px;
+    margin-top: 20px;
+    padding-top: 25px;
+    box-shadow: 0 0 15px #666;
+    margin-bottom: 30px;
+  }
+  #pHistory,#pCharacter, #pAge, #pSex, #pMedicine {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+    margin-right: 80px;
+    padding-top: 7px;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  .btn {
+    width: 168px;
+  height: 32px;
+  background-color: #5B14F2;
+  border-radius: 80px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size:12px;
+  border: 3px solid #5B14F2;
+  margin-left: 293px;
+  margin-top: 0px;
+  text-align: center;
+  color:#ffffff;
+  text-decoration: none;
+  padding: 2px;
+  background-image: linear-gradient(to left,transparent,transparent 50%,white 50%,white);
+  background-position: 100% 0;
+  background-size: 240%;
+  transition: all .25s ease-in;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    background-position: 0 0;
+    box-shadow: 0 0 10px #666;
+}
+}
+
+@media (max-width:376px) {
+  #catalogHeadPhoto{
+    width:100%;
+    height:78px;
+    position: relative;
+  }
+  #divForHeadtext1{
+    z-index: 2;
+    border-radius: 80px;
+    background-color: #ffffff;
+    height: 19px;
+    width: 260px;
+    box-shadow: 0 0 15px #666;
+    position: absolute;
+    top:14%;
+    left:18%;
+    text-align: center;
+  }
+  #headText1{
+    margin-top: 5px;
+    font-size: 9px;
+  }
+  #divForHeadtext2{
+    z-index: 2;
+    top:16%;
+    left:33%;
+    position: absolute;
+    text-align: center;
+  }
+  #headText2{
+    font-size: 16px;
+  }
+  #navigation {
+    font-size: 13px;
+    margin-top: 23px;
+    margin-left: 32px;
+  }
+  .pmain,.pcatalog,.pcats,.pnamepet{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .pmain:hover{
+    font-size: 15px;
+  }
+  .pcatalog:hover{
+    font-size: 15px;
+  }
+  .pcats:hover{
+    font-size: 15px;
+  }
+  .pnamepet:hover{
+    font-size: 15px;
+  }
+  #mainDiv{
+    display: flex;
+}
+
+.imgslider{
+    border-radius: 20px;
+    width:160px;
+    height: 160px;
+}
+#mainDiv{
+  flex-direction: column;
+}
+#divForCarousel{
+    display: flex;
+    margin-top: 50px;
+    width:80%;
+    margin-left: 15%;
+}
+ .sl_ctr{
+position:relative;
+width:160px;
+height:160px;
+overflow:hidden;
+padding-bottom: 8%;
+}
+.sldr{
+position:relative;
+width:10000px;
+height:300px;
+}
+.sldr img{
+float:left;
+}
+.prv_b, .nxt_b{
+margin-top: 22%;
+display:block;
+width:35px;
+height:35px;
+cursor:pointer;
+padding-left: 4%;
+padding-right: 2%;
+}
+.prv_b:hover, .nxt_b:hover{opacity:.6;}
+.prv_b{
+left:10px;
+}
+.nxt_b{
+right:10px;
+}
+#containerForDivNameAndDivHistory{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#divName1{
+  display:block;
+  border-radius: 20px;
+  background-color: #ffffff;
+  height: 19px;
+  width: 330px;
+  margin-left: 20px;
+  margin-top: 15px;
+  box-shadow: 0 0 15px #666;
+  text-align: center;
+}
+#pDivName1{
+  font-family: 'Roboto', sans-serif;
+  font-weight:bold;
+  margin-left: 82px;
+  margin-right: 80px;
+  padding-top: 5px;
+  font-size: 10px;
+  text-decoration: none;
+}
+#divName {
+    display:none;
+  }
+  #divHistory {
+    border-radius: 20px;
+    background-color: #ffffff;
+    height: 187px;
+    width: 318px;
+    margin-left: 27px;
+    margin-top: 20px;
+    padding-top: 25px;
+    box-shadow: 0 0 15px #666;
+    margin-bottom: 30px;
+  }
+  #pHistory,#pCharacter, #pAge, #pSex, #pMedicine {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 31px;
+    margin-right: 80px;
+    padding-top: 6px;
+    font-size: 10px;
+    text-decoration: none;
+  }
+  .btn {
+  width: 96px;
+  height: 22px;
+  background-color: #5B14F2;
+  border-radius: 80px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size:8px;
+  border: 3px solid #5B14F2;
+  margin-left: 142px;
+  margin-top: 0px;
+  text-align: center;
+  color:#ffffff;
+  text-decoration: none;
+  padding: 2px;
+  background-image: linear-gradient(to left,transparent,transparent 50%,white 50%,white);
+  background-position: 100% 0;
+  background-size: 240%;
+  transition: all .25s ease-in;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    background-position: 0 0;
+    box-shadow: 0 0 10px #666;
+}
+}
